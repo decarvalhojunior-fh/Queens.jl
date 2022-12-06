@@ -1,0 +1,21 @@
+name = "PlatformAwareQueens"
+uuid = "9517c7ca-41df-482a-982b-6591a3f0f77f"
+authors = ["Tiago Carneiro <carneirouece@gmail.com>", "Francisco Heron de Carvalho Junior <heron@dc.ufc.br>", "contributors"]
+version = "0.1.0"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CpuId = "adafc99b-e345-5852-983c-f28acb93d879"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+PlatformAware = "e7c50b67-2c03-471e-9cf2-69e515d86ecf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
