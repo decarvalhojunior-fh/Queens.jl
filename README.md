@@ -1,2 +1,1 @@
-# PlatformAwareQueens
 # Queens.jl
